@@ -3,3 +3,14 @@ html,body,#app {
     padding: 0;
     height: 100%;
 }
+
+  /* 左侧菜单设置样式 */
+.el-submenu__title,
+.el-menu-item {
+    font-size: 13px;
+    font-family: '新宋体'
+}
+i.iconfont {
+    margin-right: 10px;
+}
+

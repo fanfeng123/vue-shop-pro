@@ -32,8 +32,8 @@ export default {
   data() {
     return {
       loginForm: {
-        username: '',
-        password: ''
+        username: 'admin',
+        password: '123456'
       },
       loginFormRules: {
         username: [
@@ -50,7 +50,7 @@ export default {
         if (vali == true) {
           //    用户信息的真实性校验
           // axios带着用户的信息，去后端数据库校验
-          const {data: res} = await this.$http.post('./login', this.loginForm)
+          const { data: res } = await this.$http.post('./login', this.loginForm)
 
           //    接着判断用户名或密码  真实性的校验失败
           if (res.meta.status !== 200) {
