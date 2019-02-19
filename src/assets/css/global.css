@@ -1,16 +1,37 @@
-html,body,#app {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-  /* 左侧菜单设置样式 */
+/* 左侧菜单设置样式 */
 .el-submenu__title,
 .el-menu-item {
-    font-size: 13px;
-    font-family: '新宋体'
-}
-i.iconfont {
-    margin-right: 10px;
+  font-size: 13px;
+  font-family: '新宋体'
 }
 
+i.iconfont {
+  margin-right: 10px;
+}
+
+/* user中卡片设置 */
+.box-card {
+  margin-top: 15px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* 表格样式设定
+     */
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+ /* 分页设置统一样式
+  */
+.el-pagination {
+    margin-top: 15px;
+}
